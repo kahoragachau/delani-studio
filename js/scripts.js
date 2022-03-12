@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $('.design-icon').click(function(){
+        $('.design-icon').hide();
+        $('.design-text').show();
+    });
+    $('.design-text').click(function(){
+        $('.design-icon').toggle();
+        $('.design-text').toggle();
+    });
+    $('.dev-icon').click(function(){
+        $('.dev-icon').hide();
+        $('.dev-text').show();
+    });
+    $('.dev-text').click(function(){
+        $('.dev-icon').toggle();
+        $('.dev-text').toggle();
+    })
+    $('.product-icon').click(function(){
+        $('.product-icon').hide();
+        $('.product-text').show();
+    });
+    $('.product-text').click(function(){
+        $('.product-text').toggle();
+        $('.product-icon').toggle();
+
+    })
+})
