@@ -64,4 +64,18 @@ $(document).ready(function(){
     }, function(){
         $('#giraffe').css('opacity',0).fadeOut();
     });
-})
+});
+
+let submitButton = document.getElementById('submit');
+submitButton.addEventListener("click", sendEmail);
+
+function sendEmail(){
+    let nameInput = document.getElementById("input_name").value;
+    let emailInput = document.getElementById("email_input").value;
+    let messageInput = document.getElementById("message").value;
+    if(nameInput !== "" && emailInput!=="" && messageInput !== ""){
+        alert(nameInput + " Your message is well received");
+    }else{
+        alert("Inputs Cant be empty");
+    }
+}
