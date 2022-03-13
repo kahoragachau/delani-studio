@@ -69,11 +69,43 @@
     width: 100%; 
     height: 100%;
 }
+.contact-us{
+    color: #fff;
+    height: 100vh;
+    background-image: url('/assets/backgrounds/c_image.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+form{
+    padding-top: 30px;
+}
+form > div > input{
+    border: 2px solid #fff;
+    width: 70%;
+    background: none;
+    color: #fff;
+}
+form > div > input::placeholder{
+    color: #fff;
+}
+form > div > textarea{
+    border: 2px solid #fff;
+    height: 40vh;
+    width: 60vw;
+    margin-left: 30px;
+    background: none;
+    color: #fff;
+}
+form > div > textarea::placeholder{
+    color: #fff;
+}
 .footer-section{
     text-align: center;
 }
 .social-icons{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
