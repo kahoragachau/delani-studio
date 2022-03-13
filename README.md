@@ -22,6 +22,9 @@ By Kahora Gachau
 ## Known Bugs
 - Currently there are no known bugs, if stumble across one you can open a github issue and ill look into it.
 
+## Contacts
+- Feel free to reach out to me via my email :joelkahoragachau6@gmail.com
+
 ## License
 MIT Copyright (c) 2022 Kahora Gachau
 
