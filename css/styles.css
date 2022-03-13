@@ -1,12 +1,6 @@
-.about-us, .services-section,.what-we-do-section, .portofolio-section, .contact-us{
+.about-us, .services-section,.what-we-do-section, .portofolio-section, .contact-us, .footer-section{
     text-align: center;
 }
-/* .services-section{
-    text-align: center;
-}
-.what-we-do-section{
-    text-align: center;
-} */
 .design-text,.dev-text,.product-text{
     display: none;
 }
