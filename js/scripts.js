@@ -23,5 +23,45 @@ $(document).ready(function(){
         $('.product-text').toggle();
         $('.product-icon').toggle();
 
-    })
+    });
+    $('.work1').hover(function(){
+        $('#black').css('opacity',1).fadeIn(2000);
+    }, function(){
+        $('#black').css('opacity',0).fadeOut();
+    });
+    $('.work2').hover(function(){
+        $('#mighty-ontario').css({'opacity':1, "background-color": "grey"}).fadeIn(2000);
+    }, function(){
+        $('#mighty-ontario').css('opacity',0).fadeOut();
+    });
+    $('.work3').hover(function(){
+        $('#orange-oblisque').css({'opacity':1, "background-color": "grey"}).fadeIn(2000);
+    }, function(){
+        $('#orange-oblisque').css('opacity',0).fadeOut();
+    });
+    $('.work4').hover(function(){
+        $('#brave').css({'opacity':1, "background-color": "grey"}).fadeIn(2000);
+    }, function(){
+        $('#brave').css('opacity',0).fadeOut();
+    });
+    $('.work5').hover(function(){
+        $('#portofolio').css({'opacity':1, "background-color": "grey"}).fadeIn(2000);
+    }, function(){
+        $('#portofolio').css('opacity',0).fadeOut();
+    });
+    $('.work6').hover(function(){
+        $('#dashboard').css({'opacity':1, "background-color": "grey"}).fadeIn(2000);
+    }, function(){
+        $('#dashboard').css('opacity',0).fadeOut();
+    });
+    $('.work7').hover(function(){
+        $('#burner').css({'opacity':1, "background-color": "grey"}).fadeIn(2000);
+    }, function(){
+        $('#burner').css('opacity',0).fadeOut();
+    });
+    $('.work8').hover(function(){
+        $('#giraffe').css({'opacity':1, "background-color": "grey"}).fadeIn(2000);
+    }, function(){
+        $('#giraffe').css('opacity',0).fadeOut();
+    });
 })
