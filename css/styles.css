@@ -1,6 +1,6 @@
 .header-section{
     height: 100vh;
-    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-image: url(../assets/backgrounds/h_img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@
 }
 .services-section{
     height: 50vh;
-    background-image: url('../assets/backgrounds/s_image.jpg');
+    background-image: url(../assets/backgrounds/s_image.jpg);
     color: #fff;
     padding-top: 75px;
 }
@@ -96,7 +96,7 @@
 .contact-us{
     color: #fff;
     height: 100vh;
-    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-image: url(../assets/backgrounds/c_image.jpg);
     background-position: center;
     background-size: cover;
     padding-top: 50px;
